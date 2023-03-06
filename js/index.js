@@ -103,11 +103,11 @@ document.getElementById ('btnTinhTongSo2ChuSo').onclick = function(){
 
     //process
 
-    var soHangDonVi = so2ChuSo % 10;
+    var  soHangDonVi =   so2ChuSo % 10;
 
-    var soHangChuc = so2ChuSo / 10  ;
+    var soHangChuc =  so2ChuSo / 10  ;
 
-     tong = soHangChuc + soHangDonVi ;
+     tong =  Math.floor (soHangChuc) + Math.floor (soHangDonVi) ;
 
      //in ra giao diện
 
